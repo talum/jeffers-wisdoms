@@ -14,23 +14,26 @@ body{
 
 h1, h2, h3, p{
   text-align: center;
+  margin: 20px auto;
 }
 
 h1{
   font-family: 'Yeseva One', cursive;
-  padding:20px;
   text-transform: lowercase;
   font-size: 1.5em;
 }
 h2{
   font-size:1.2em;
+  width:70%;
 }
 h3{
   font-style:italic;
   font-size: 1.15em;
+  width:70%;
 }
 p{
   font-size: 0.8em;
+  width:70%;
 }
 #jeffers{
   text-transform: uppercase;
@@ -46,7 +49,7 @@ p{
   padding:20px;
 }
 .wrapper{
-  width:80%;
+  width:60%;
   margin: 0 auto;
   max-width: 800px;
 }
