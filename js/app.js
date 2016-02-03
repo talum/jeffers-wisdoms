@@ -13,6 +13,6 @@ function loadData(){
 function buttonListener(){
   document.getElementById('knowledge-button').onclick = function(){
     loadData();
-
+    this.blur();
   }
 }
