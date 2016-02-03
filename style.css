@@ -37,21 +37,22 @@ p{
   line-height:1.46;
   width:70%;
 }
+img{
+  width:100%;
+}
 #jeffers{
   text-transform: uppercase;
   font-size: 1.9em;
 }
-#image{
-  background-image: url(img/jeffrey1.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  border-radius: 5px;
-}
 #quote-container{
   padding:20px;
 }
+#images{
+  display:flex;
+  justify-content:space-between;
+}
 .wrapper{
-  width:60%;
+  width:90%;
   margin: 0 auto;
   max-width: 800px;
 }
@@ -72,5 +73,13 @@ p{
   color:#FFF;
   border-radius: 5px;
   display:block;
-  margin: 0 auto;
+  margin: 20px auto;
+}
+.image{
+  flex:none 0 1 auto;
+  align-content:flex-start;
+  width:30%;
+  max-height:170px;
+  overflow:hidden;
+  border-radius:5px;
 }
