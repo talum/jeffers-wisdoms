@@ -23,5 +23,7 @@ var data = [
 {id: 22, quote:"Live every week like it's Shark Week.", followUp: "Have you ever seen 30 Rock?", context:"His response to Tracy during their last one-on-one when she asked for advice for programming post-Flatiron."},
 {id: 23, quote:"I think it's a good idea to have low expectations when you code...maybe not in interviews.", followUp: null, context:"More job advice."},
 {id: 24, quote:"Some of us look very confused. Either that or very sad. Do you want to talk?", followUp: null, context:"About Ember, during last week of review."},
-{id: 25, quote: "Oh no!", followUp:null, context: "(in a whispery voice when something goes wrong)"}
+{id: 25, quote: "Oh no!", followUp:null, context: "(in a whispery voice when something goes wrong)"},
+{id: 26, quote: "“Don’t you start work in a week? Shouldn’t you be doing something fun?", followUp: null, context: "To Jim, who was hanging around campus even after he found a job"
+}
 ]
